@@ -6,7 +6,7 @@ luego de clonar el repo, e instalar Node.js, Proceder a hacer npm install asi se
 
 # Ej 1.
 
-cambiar los numeros por los que se deseen en la funcion "multiplicar( , )".
+cambiar los numeros por los que se deseen en la funcion multiplicar( , ).
 por consola se vera la rta al escribir "node P1.js"
 
 # Ej 2
@@ -26,5 +26,12 @@ por consola se veran las rtas. Al escribir "node P2.js"
 
 # Ej 3
 
-Probar distintas claves en la funcion "checkPass("")".
-Por consola se vera un mensaje si esta aprobada o no
+Probar distintas claves en la funcion checkPass("").
+por consola se veran las rtas. Al escribir "node P3.js"
+
+---
+
+# Ej 4
+
+Colocar distintos numeros en el array de la funcion infoArray([, ,])--> ej: infoArray([2, 3, 4,5555, 8, 9, 10, 1111])
+por consola se vera las rta. Al escribir "node P4.js"
