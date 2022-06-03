@@ -29,7 +29,6 @@ function checkPass(pass) {
   } else {
     for (let i = 0; i < pass.length; i++) {
       if (pass[i] == 0) {
-        //aplica tamb para espacios
         flag++;
       }
       if (pass.charCodeAt(i) >= 65 && pass.charCodeAt(i) <= 90) {
@@ -84,4 +83,4 @@ function checkPass(pass) {
   }
 }
 
-checkPass("!@#$%svnQ^&*-_+=?14896GHYT{psapsav{pa{j");
+checkPass("!@#$%svnQ^&*-_+=?14896GHYT{psapsav{pa{j"); //Probar distinas constraseñas

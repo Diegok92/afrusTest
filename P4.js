@@ -76,4 +76,4 @@ function infoArray(array) {
   return rta;
 }
 
-infoArray([2, 3, 4, 5, 6, 7, 8, 9, 10, 1111]);
+infoArray([2, 3, 4, 5, 6, 7, 8, 9, 10, 1111]); //cambiar los numeros por los que se deseen
