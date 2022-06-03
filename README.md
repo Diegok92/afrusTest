@@ -36,6 +36,15 @@ por consola se veran las rtas. Al escribir "node P3.js"
 Colocar distintos numeros en el array de la funcion infoArray([, ,])--> ej: infoArray([2, 3, 4,5555, 8, 9, 10, 1111])
 por consola se vera las rta. Al escribir "node P4.js"
 
-# Ej 5
+# Ej 5 en adelante
 
-## entrar a la carpeta "frontend", colocar en consola npm install, luego npm start --> en el puerto 3000 estara levantado el servidor (fue levantado usando express-generator)
+## entrar a la carpeta "frontend", colocar en consola npm install, luego npm start --> en el puerto 3000 estara levantado el servidor (fue levantado usando express-generator), en la pagina ppal. estan los links a los ejercios
+
+## 5
+
+Ir colocando caracteres en el cuadro de texto y a medida que se cumplan los requerimientos, se pondran en verde los mensajes
+
+## 6
+
+Colocar en el cuador de texto un N° o nombre de un pokemon para conocer alguno de sus datos
+al presionar el boton, se mostraran dichos datos

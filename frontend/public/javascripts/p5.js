@@ -1,6 +1,4 @@
 window.addEventListener("load", function () {
-  console.log("hola mundo");
-
   let boton = document.querySelector(".boton");
   boton.addEventListener("click", function (e) {
     e.preventDefault();

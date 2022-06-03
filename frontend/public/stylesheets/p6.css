@@ -7,8 +7,6 @@ a {
   color: #00b7ff;
 }
 
-footer {
+.info {
   padding: 20px;
-  font-size: 15px;
-  font-weight: bold;
 }

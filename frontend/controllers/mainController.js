@@ -5,4 +5,7 @@ module.exports = {
   p5: (req, res) => {
     res.render("p5");
   },
+  p6: (req, res) => {
+    res.render("p6");
+  },
 };
