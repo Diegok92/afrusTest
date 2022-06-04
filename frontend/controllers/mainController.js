@@ -11,4 +11,7 @@ module.exports = {
   p7: (req, res) => {
     res.render("p7");
   },
+  p8: (req, res) => {
+    res.render("p8");
+  },
 };

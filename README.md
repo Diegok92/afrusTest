@@ -1,6 +1,4 @@
-# afrusTest
-
-Formas de ejecucion y visualizacion:
+# afrusTest - Formas de ejecucion y visualizacion:
 
 luego de clonar el repo, e instalar Node.js, Proceder a hacer npm install asi se instalan todas las librerias necesarias para el correcto funcionamiento de todos los ejericios
 
@@ -54,3 +52,9 @@ al presionar el boton, se mostraran dichos datos
 Colocar en los cuadro de texto un titulo, una fecha, una prioridad y la tarea en si
 al presionar el boton "Agregar Tarea", las tareas se acumularan debajo del formulario
 al presionar el boton "Limpiar Campos", el formulario se reestablecera
+
+## 8
+
+Ingresar un N° entre 1 y 15 y se cargaran las imagenes correspondientes (provienen de la api: https://api.imgflip.com/get_memes).
+Nota: si el N° ingresado es menor a 15, se pueden seguir agregando imagenes a la pantalla hasta completar las 15.
+Si el nuevo N° introducido hace superar el limite de 15 por pantalla, saltara un cartel de advertencia
