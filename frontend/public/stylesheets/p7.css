@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contenido {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenido .titulo {
+  width: 33.3%;
+}
+
+.contenido .fecha {
+  width: 33.3%;
+}
+.contenido .prioridad {
+  width: 33.3%;
+  color: crimson;
+  text-align: center;
+}
+
+.bloqueAccion {
+  padding-bottom: 20px;
+}

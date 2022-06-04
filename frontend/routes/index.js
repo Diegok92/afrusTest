@@ -9,4 +9,6 @@ router.get("/p5", mainController.p5);
 
 router.get("/p6", mainController.p6);
 
+router.get("/p7", mainController.p7);
+
 module.exports = router;

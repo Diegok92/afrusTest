@@ -38,7 +38,7 @@ por consola se vera las rta. Al escribir "node P4.js"
 
 # Ej 5 en adelante
 
-## entrar a la carpeta "frontend", colocar en consola npm install, luego npm start --> en el puerto 3000 estara levantado el servidor (fue levantado usando express-generator), en la pagina ppal. estan los links a los ejercios
+## entrar a la carpeta "frontend" (poner en consola: cd frontend), luego npm install, luego npm start --> en el puerto 3000 estara levantado el servidor (fue levantado usando express-generator), en la pagina ppal. (http://localhost:3000) estan los links a los ejercicios
 
 ## 5
 
@@ -46,5 +46,11 @@ Ir colocando caracteres en el cuadro de texto y a medida que se cumplan los requ
 
 ## 6
 
-Colocar en el cuador de texto un N° o nombre de un pokemon para conocer alguno de sus datos
+Colocar en el cuadro de texto un N° o nombre de un pokemon para conocer alguno de sus datos
 al presionar el boton, se mostraran dichos datos
+
+## 7
+
+Colocar en los cuadro de texto un titulo, una fecha, una prioridad y la tarea en si
+al presionar el boton "Agregar Tarea", las tareas se acumularan debajo del formulario
+al presionar el boton "Limpiar Campos", el formulario se reestablecera

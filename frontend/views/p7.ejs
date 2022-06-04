@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/p7.css' />
+    <script src="/javascripts/p7.js"></script>
+    <title>Ejercicio 7</title>
+</head>
+
+<body>
+    <h1>Ejercicio 7 - Form de Tareas</h1>
+    <form class="form">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="titulo">Titulo</label>
+                <input type="text" class="form-control titulo" id="titulo" placeholder="Titulo de la Tarea">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="fecha">Fecha</label>
+                <input type="date" class="form-control fecha" id="fecha" placeholder="Fecha">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="prioridad">Prioridad</label>
+            <select class="form-control prioridad" id="prioridad">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="descripcion">Descripcion</label>
+            <textarea class="form-control descripcion" id="descripcion" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Agregar Tarea</button>
+        <button type="reset" class="btn btn-secondary">Limpiar Campos</button>
+
+    </form>
+    <h2>Listado de Tareas</h2>
+    <div class="listadoTareas">
+
+        <!-- <div class="input-group bloqueTarea">
+            <div class="contenido">
+                <input type="text" class="form-control titulo" value="Prueba Titulo" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2" readonly>
+                <input type="date" class="form-control fecha" value="" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2" readonly>
+                <input type="text" class="form-control prioridad" value="1" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2" readonly>
+
+                <input type="text" class="form-control texto" value="prueba" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2" readonly>
+            </div>
+            <div class="input-group-append bloqueAccion">
+                <button class="btn btn-outline-secondary botonEditar" type="button">Editar</button>
+                <button class="btn btn-outline-secondary botonBorrar" type="button">Borrar</button>
+            </div>
+        </div> -->
+
+    </div>
+    </div>
+    <footer>
+        <div>
+            <a href="/p5">
+                <p>Ir al Ejercicio 5 </p>
+            </a>
+        </div>
+        <div>
+            <a href="/p6">
+                <p>Ir al Ejercicio 6 </p>
+            </a>
+        </div>
+        <div>
+            <a href="/p8">
+                <p>Ir al Ejercicio 8 </p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

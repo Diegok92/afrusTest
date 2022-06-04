@@ -8,4 +8,7 @@ module.exports = {
   p6: (req, res) => {
     res.render("p6");
   },
+  p7: (req, res) => {
+    res.render("p7");
+  },
 };
